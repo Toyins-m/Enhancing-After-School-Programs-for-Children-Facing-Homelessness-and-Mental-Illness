@@ -2,50 +2,56 @@
 [🔗 Link to Designed ACOF Webpage:](https://toyins-m.github.io/Enhancing-After-School-Programs-for-Children-Facing-Homelessness-and-Mental-Illness/)
 
 ## 📌 Project Description
-This project examines how to improve after-school programs for children experiencing homelessness and mental illness. Using a needs-assessment approach informed by interviews with Community of Friends case specialists, the project analyzes academic, emotional, and social challenges and proposes evidence-based program enhancements. It integrates survey design, trauma-informed practices, and developmental methodologies such as JAD (Joint Application Development) and Agile to support more adaptive and responsive services for vulnerable children.
+This project focuses on improving after-school programs for children experiencing homelessness and mental illness through systems analysis, stakeholder interviews, survey design, and trauma-informed program planning.  
+A complete HTML/CSS website was developed to present the program, showcase services, and support community engagement, built using custom layouts, navigation components, and responsive styling.  
+The project integrates design methodologies, including JAD (Joint Application Development) and Agile, to ensure collaborative, iterative enhancements.  
 
 ## 🎯 Objectives / Goals
-- Identify the academic, social, and emotional needs of children experiencing homelessness or mental illness  
-- Propose enhancements to after-school programs using trauma-informed, child-centered frameworks  
-- Design child and parent surveys to measure program effectiveness  
-- Integrate JAD and Agile methodologies to improve program adaptability and stakeholder engagement  
-- Strengthen long-term resilience, confidence, and community support for underserved youth  
+- Assess the academic, emotional, and social needs of affected children  
+- Design evidence-based enhancements to after-school programs  
+- Develop child & parent surveys using mixed-methods structures  
+- Build a full informational website highlighting program mission and services  
+- Apply JAD & Agile methodologies for collaborative program improvement  
+- Promote community involvement and volunteer engagement  
 
 ## 🧠 Skills Learned
-- Needs assessment & stakeholder interviews  
-- Informed program design  
-- Survey development (open-ended + Likert scale)  
-- Mixed-method data collection  
-- Requirements analysis (JAD sessions, Agile iteration cycles)  
-- Social impact evaluation & program design  
-- Academic research writing and policy analysis  
+- Systems Analysis & Design  
+- JAD requirements gathering  
+- Agile iteration & planning  
+- Survey construction (Likert scale + open-ended)  
+- Needs assessment modeling  
+- Trauma-informed program design  
+- Web development (HTML, CSS)  
+- Client-focused content architecture  
 
 ## 🛠 Tools & Technologies
-- Microsoft Word  
-- Microsoft PowerPoint  
+- HTML & CSS (full custom site)  
+- Microsoft Word / PowerPoint  
 - Survey design frameworks  
-- JAD methodology  
-- Agile methodology  
+- JAD & Agile methodologies  
 - Qualitative & quantitative analysis techniques  
 
-## 📐 Methodology (Concise)
-The project used a structured needs-assessment approach informed by stakeholder interviews. A trauma-informed care framework guided program recommendations, while JAD and Agile methodologies shaped iterative program improvements, stakeholder collaboration, and continuous feedback cycles. Surveys for children and parents were structured using a funnel approach to collect both qualitative and quantitative insights.  
+## 📐 Methodology
+This project used a structured Systems Analysis & Design workflow.
+Stakeholder interviews with Community of Friends case specialists informed a trauma-informed needs assessment. JAD sessions were proposed to involve families, staff, and children in co-designing program improvements. Agile iteration cycles were applied to refine program features, survey instruments, and website content.  
 
-*A full step-by-step breakdown is included in the final project documents.*
+The website was designed with custom HTML structure, CSS-based styling, navigation menus, and community resource sections. It serves as the final deliverable presenting program information, volunteer pathways, and organizational messaging.
 
 ## 📊 Outcomes / Results
-According to the project documentation
+From the project documentation and website deliverables:
 
-- Developed a comprehensive enhancement plan centered on academic, emotional, and social support 
-- Created child and parent survey instruments, including open-ended questions and Likert scale items  
-- Designed a trauma-informed program structure prioritizing safety, collaboration, and emotional regulation  
-- Built a needs-assessment model integrating stakeholder interviews with case specialists  
-- Proposed JAD-based collaborative workshops to involve staff, parents, and children in program design  
-- Applied Agile iterative cycles to continuously refine activities based on real-time feedback  
-- Identified expected benefits such as:  
-  - Increased academic engagement and assignment completion  
-  - Stronger social skills, confidence, and emotional resilience  
-  - Improved long-term coping and problem-solving abilities  
+- Created a comprehensive needs assessment model integrating stakeholder insights  
+- Designed structured surveys for both children and parents (Likert + qualitative)  
+- Built a full multi-page HTML/CSS website featuring:  
+  - Home page with program overview  
+  - About section  
+  - JAD method explanation  
+  - Survey analysis page  
+  - Contact & volunteer engagement page 
+- Integrated trauma-informed practices emphasizing safety, emotional regulation, and empowerment  
+- Proposed JAD-based collaborative planning workshops for staff and families  
+- Recommended Agile cycles to continuously refine programs, improving responsiveness  
+- Identified expected benefits such as improved school engagement, stronger coping skills, and better social/emotional development   
 
 ## 📁 Repository Structure
 - [Project Theme](Project-theme/)
