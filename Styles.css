@@ -1,0 +1,379 @@
+/* Global Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body > header img {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+body > header > a > img {
+	display: block;
+	float: auto;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body > header > h1 {
+	float: auto;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body > header > nav.horizontalNavigation li {
+	width: 15%;
+}
+
+nav {
+    background-color: #f4f4f4;
+    font-size: 1em;
+    text-align: center;
+}
+
+nav.horizontalNavigation ul li {
+	display: block;
+	float: left;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a img {
+	display: block;
+	width: 25%;
+}
+
+nav ul li a {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	text-align:center;
+	padding-left: auto;
+	padding-right: auto;
+	padding-top: 6px;
+	padding-bottom: 12px;
+	clear: both;
+	margin-left: 80%;
+	width: 96%;
+	float: left;
+	display: block;
+	overflow: hidden;
+	margin-bottom: 5px;
+	text-align: center;
+}
+	
+nav ul li a, a:visited{
+	color: white;
+	text-decoration: none;
+	background-color: hsla(0, 0%, 42%, 0.4);
+}
+
+nav ul li a:active, a:hover{
+	color: hsla(0, 0%, 100%, 0.7);
+	background-color: hsla(0, 0%, 42%, 0.7);
+}
+
+nav > ul {
+	line-height: 0em;
+	list-style-type: none;
+	padding-left: 5px;
+}
+
+nav > ul >li.newgroup {
+	margin-top: 20px;
+}
+
+section {
+    padding: 50px;
+    margin: 80px;
+    position: relative;
+}
+
+/* Define the background image for the line */
+section::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10px; /* Adjust height as needed */
+    background-image: url('Elegant-Colorful-Modern.jpg'); /* Replace 'your-background-image.jpg' with your image path */
+    background-size: cover;
+    background-repeat: repeat-x; /* Repeat only horizontally */
+}
+
+/* Adjust margin for the last section to avoid overlapping with the footer */
+section:last-child {
+    margin-bottom: 0;
+}
+
+/* Additional styles for home page sections */
+#who-we-are, #what-we-do, #how-you-can-help {
+    padding: 50px;
+    margin: 80px;
+    position: relative;
+}
+
+/* Define the background image for the line */
+#who-we-are::after, #what-we-do::after, #how-you-can-help::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10px; /* Adjust height as needed */
+    background-image: url('Elegant-Colorful-Modern.jpg'); /* Replace 'your-background-image.jpg' with your image path */
+    background-size: cover;
+    background-repeat: repeat-x; /* Repeat only horizontally */
+}
+
+/* Adjust margin for the last section to avoid overlapping with the footer */
+#how-you-can-help {
+    margin-bottom: 0;
+}
+
+.content-left, .content-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-left img, .content-right img {
+    width: 45%; /* Adjust image size */
+    border-radius: 10px;
+}
+
+/* Adjust text alignment based on section */
+#who-we-are .content-left p,
+#what-we-do .content-right p,
+#how-you-can-help .content-left p {
+    text-align: left;
+    margin-right: 20px;
+}
+
+#who-we-are .content-left img,
+#what-we-do .content-right img,
+#how-you-can-help .content-left img {
+    order: 2; /* Reverse order of image and text */
+}
+
+#what-we-do .content-right p,
+#how-you-can-help .content-left p {
+    order: 1; /* Reverse order of text and image */
+}
+
+#what-we-do .content-right img,
+#how-you-can-help .content-left img {
+    order: 2; /* Reverse order of image and text */
+}
+
+#programs ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#programs ul li {
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+#programs ul li.homework {
+    background: url('homework-icon.png') no-repeat left center;
+    padding-left: 40px;
+    background-size: 20px 20px;
+}
+
+#programs ul li.therapeutic {
+    background: url('therapeutic-icon.jpg') no-repeat left center;
+    padding-left: 40px;
+    background-size: 20px 20px;
+}
+
+#programs ul li.reintegration {
+    background: url('reintegration-icon.png') no-repeat left center;
+    padding-left: 40px;
+    background-size: 20px 20px;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#contact ul li {
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+#contact ul li.phone {
+    background: url('phone-icon.png') no-repeat left center;
+    padding-left: 40px;
+    background-size: 20px 20px;
+}
+
+#contact ul li.address {
+    background: url('address-icon.jpg') no-repeat left center;
+    padding-left: 40px;
+    background-size: 20px 20px;
+}
+
+#volunteer {
+    padding: 25px;
+    margin: 80px;
+}
+
+#volunteer h2 {
+    color: #333;
+}
+
+#volunteer p {
+    margin-bottom: 20px;
+}
+
+#volunteer form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#volunteer label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#volunteer input[type="text"],
+#volunteer input[type="email"],
+#volunteer input[type="tel"],
+#volunteer textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+#volunteer input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#volunteer input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#volunteer input[type="submit"]:hover {
+    background-color: #555;
+}
+
+#volunteer p:last-child {
+    margin-top: 20px;
+}
+
+/* Additional styles for team photos and team members */
+.team-photos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    margin: 0;
+}
+
+/* Additional styles for organization section */
+#organization {
+    text-align: justify;
+}
+
+#organization p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+}
+
+/* Add the CSS code for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; /* Add padding to the top and bottom of the footer */
+}
+
+footer p {
+    margin-bottom: 10px; /* Add some space below each paragraph */
+}
+
+footer a {
+    color: #fff; /* Set the color of the links to white */
+    text-decoration: none; /* Remove the underline from the links */
+    margin: 0 10px; /* Add some space around each link */
+}
+
+footer img {
+    width: 30px; /* Adjust the width of the social media icons */
+    height: auto; /* Maintain the aspect ratio */
+    margin: 0 5px; /* Add some space around each icon */
+    vertical-align: middle; /* Align the icons vertically */
+}
