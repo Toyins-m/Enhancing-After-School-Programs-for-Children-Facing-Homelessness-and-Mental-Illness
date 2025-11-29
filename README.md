@@ -13,7 +13,7 @@ This project examines how to improve after-school programs for children experien
 
 ## 🧠 Skills Learned
 - Needs assessment & stakeholder interviews  
-- Trauma-informed program design  
+- Informed program design  
 - Survey development (open-ended + Likert scale)  
 - Mixed-method data collection  
 - Requirements analysis (JAD sessions, Agile iteration cycles)  
