@@ -3,7 +3,9 @@
 
 ## 📌 Project Description
 This project focuses on improving after-school programs for children experiencing homelessness and mental illness through systems analysis, stakeholder interviews, survey design, and trauma-informed program planning.  
+
 A complete HTML/CSS website was developed to present the program, showcase services, and support community engagement, built using custom layouts, navigation components, and responsive styling.  
+
 The project integrates design methodologies, including JAD (Joint Application Development) and Agile, to ensure collaborative, iterative enhancements.  
 
 ## 🎯 Objectives / Goals
