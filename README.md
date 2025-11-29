@@ -48,3 +48,5 @@ According to the project documentation (:contentReference[oaicite:2]{index=2} :c
   - Improved long-term coping and problem-solving abilities  
 
 ## 📁 Repository Structure
+- [Project Theme](Project-theme/)
+- [README.md](README.md)
