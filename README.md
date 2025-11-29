@@ -34,7 +34,7 @@ The project used a structured needs-assessment approach informed by stakeholder 
 *A full step-by-step breakdown is included in the final project documents.*
 
 ## 📊 Outcomes / Results
-According to the project documentation (:contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}):
+According to the project documentation
 
 - Developed a comprehensive enhancement plan centered on academic, emotional, and social support 
 - Created child and parent survey instruments, including open-ended questions and Likert scale items  
